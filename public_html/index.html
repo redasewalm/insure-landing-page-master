@@ -16,16 +16,21 @@ and open the template in the editor.
     <body>
         <div class="header">
             <img src="images/logo.svg" alt="INSURE">
+            <div class="nav-content">
             <a href="#">HOW WE WORK</a>
             <a href="#">BLOG</a>
             <a href="#">ACCOUNT</a>
             <button class="bt" >VIEW PLANS</button>
-            <button class="nav"><img src="images/icon-hamburger.svg"></button>
+            </div>
+            <button class="nav" onclick="navshow()"><img class="show" src="images/icon-hamburger.svg">
+                <img class="close" src="images/icon-close.svg"></button>
+           
             
             </div>
         <div class="block1">
             <hr>
-             <img class="intro-img" src="images/image-intro-desktop.jpg" alt=""> 
+             <img class="intro-img" src="images/image-intro-desktop.jpg" alt="">
+             <img class="intro-img mob-intro" src="images/image-intro-mobile.jpg" alt="">
             <h1>Humanizing <br>
             your insurance.</h1>
             <p class="content">Get your life insurance coverage easier and faster.We blend our expertise<br>
@@ -114,5 +119,6 @@ and open the template in the editor.
             </div>
             
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
