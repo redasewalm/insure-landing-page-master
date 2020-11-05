@@ -1,0 +1,370 @@
+/* 
+    Document   : stsheet
+    Created on : Oct 28, 2020, 1:59:16 PM
+    Author     : mm
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+    font-family: Karla ,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    
+}
+h1{
+font-family: DM Serif Display;
+    font-size: 67px;
+}
+
+.header{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 9px;
+
+    
+}
+
+.header img{
+    
+    padding-left: 8%;
+   padding-right: 39%;
+}
+
+.header a{
+    
+    color: hsl(236deg 3% 45%);
+    text-decoration: none;
+    padding-right: 2%;
+    font-family: DM Serif Display;
+}
+.header a:hover{
+    
+    opacity: .8;
+}
+.header .bt{
+    
+    background-color: white;
+    border-color: black;
+    width: 150px;
+    height: 35px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header .bt:hover{
+    
+   background-color: black;
+   color: white;
+}
+.header .nav{
+    cursor: pointer;
+    width: 30px;
+    height: 31px;
+    position: relative;
+    display: none;
+    float: right;
+    margin-right: 5%;
+    padding-bottom: 10px;
+        
+    
+}
+.header .nav img{
+    position: absolute;
+    left: -5px;
+    top: -2px; 
+    width: 40px;
+}
+.block1 {
+    background-color: hsl(256, 26%, 20%);
+    height: 23%;
+    color: white;
+    position: relative;
+    padding-left: 8%;
+    padding-top: 7%;
+   
+}
+ hr{
+   margin-right: 87%;
+   width: 150px;
+}
+.block1 h1{
+   
+    padding-top: 2%;
+    margin-bottom: 0px;
+
+}
+.block1 .content{
+   line-height: 2em;
+   width: 45%;
+}
+.block1 button{
+    
+    background-color: hsl(256, 26%, 20%);
+     border:1px solid white;
+    color: white;
+    width: 150px;
+    height: 35px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 9%;
+    margin-top: 1%;
+
+}
+.block1 button:hover{
+    
+   background-color: white;
+   color: black;
+}
+.block1 .intro-img{
+    top: 97px;
+    right: 70px;
+    position: absolute;
+    width:43%;
+    
+}
+.block1:after{
+    content: '';
+    width: 50%;
+    height: 100%;
+    background-image: url(images/bg-pattern-intro-right-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+.block1:before{
+    content: '';
+    width: 100%;
+    height: 77%;
+    background-image: url(images/bg-pattern-intro-left-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    bottom: -60%;
+    left: 0px;
+    z-index: 1;
+    position: absolute;
+}
+
+
+.block2 {
+    
+   
+   margin-left: 8%;
+    margin-top: 22%;
+    height: 560px;
+}
+
+.block2 h1{
+    padding-top: 1%;
+    margin-bottom: 7%;
+}
+.block2 .content2{
+  float: left;
+  
+  width: 33%;
+}
+
+.block2 p{
+   line-height: 2em;
+   color: hsl(0deg 1% 54%);
+   
+}
+.block3:before{
+  
+   content: '';
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0px;
+    right: 0px;
+   z-index: 1;
+  background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+   background-repeat: no-repeat;
+   background-position: center right;}
+.block3{
+  
+   background-color: hsl(256, 26%, 20%);
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    width: 80%;
+    height: 200px;
+    margin-left: 8%;
+    padding-left: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: relative;
+   
+}
+
+.block3 button{
+    
+  background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 190px;
+    height: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    float: right;
+    margin-top: -13%;
+    margin-right: 7%;
+    z-index: 3;
+    
+   
+}
+.block3 button:hover{
+    
+   background-color: white;
+   color: black;
+}
+.block3 h1{
+    
+  font-size: 55px;
+}
+.footer{
+    background-image: url(images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: hsl(0, 0%, 98%);
+    padding-left: 8%;
+    height: 400px;
+    box-sizing: content-box;
+    
+}
+.footer .head-foot{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.footer .head-foot .logo{
+   
+}
+.footer .head-foot .social{
+   
+    margin-top: -23px;
+    margin-right: 10%;
+    float: right;
+}
+
+.footer .head-foot a{
+    padding-right: 10px;
+}
+
+
+.footer .foot-content{
+   
+    font-family: DM Serif Display;
+    width: 24%;
+    padding-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2em;
+   float: left;
+}
+.footer .foot-content span{
+    
+    line-height: 4.5em;
+    color: hsl(236deg 3% 45%);
+    
+}
+.footer hr{
+   width: 95%;
+    margin-right: 5%;
+}
+.footer .foot-content a{
+   
+    cursor: pointer;
+}
+@media (max-width:1125px){
+    .header img{
+    
+   padding-right: 30%;
+}
+}
+@media (max-width:954px){
+    .header a{
+   display: none;
+}
+.header .bt{
+   display: none;
+}
+.header .nav{
+    display: block;
+    
+}
+.header{
+   
+    padding-top: 20px;
+    padding-bottom: 25px;
+
+    
+}
+.block1 .intro-img{
+    position: unset;
+    width: 100%;
+    margin-left: -4%;
+    margin-top: -7%;
+}
+hr:first-line{
+  display: none;
+}
+.block1:after{
+    background-image: url(images/bg-pattern-intro-right-mobile.svg);
+     background-position: bottom right;
+}
+.block1:before{
+   
+    background-image: url(images/bg-pattern-intro-left-mobile.svg);
+    bottom: 0px;
+    top: 19px;
+}
+.block1 {
+   text-align: center;
+
+}
+.block1 .content{
+   width: 100%;
+}
+.block2 {
+  height: 950px;
+}
+.block2 .content2{
+  width: 100%;
+  text-align: center;
+  float: none;
+}
+.block2 h1{
+    text-align: center;
+}
+.block3 button{
+    float: none;
+   
+}
+.block3 {
+   text-align: center;
+   height: 350px;
+    box-sizing: border-box;
+}
+.block3:before{
+  
+  background-image: url(images/bg-pattern-how-we-work-mobile.svg);
+}
+.footer {
+    text-align: center;
+    height: 1000px;
+}
+
+.footer .head-foot .social{
+ 
+    margin-top: 30px;
+    margin-right:0%;
+    float: none;
+}
+.footer .foot-content{
+   
+    width: 100%;
+   float: none;
+}
+}
