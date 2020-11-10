@@ -164,7 +164,7 @@ font-family: DM Serif Display;
    
    margin-left: 8%;
     margin-top: 22%;
-    height: 560px;
+     margin-bottom: 10%;
 }
 
 .block2 h1{
@@ -182,7 +182,16 @@ font-family: DM Serif Display;
    color: hsl(0deg 1% 54%);
    
 }
-.block3:before{
+.clearfix{
+   clear: both;
+   
+}
+.block3{
+  margin-top: 5%;
+ 
+    margin-bottom: 150px;
+}
+.block3 .container:before{
   
    content: '';
    width: 100%;
@@ -194,23 +203,21 @@ font-family: DM Serif Display;
   background-image: url(images/bg-pattern-how-we-work-desktop.svg);
    background-repeat: no-repeat;
    background-position: center right;}
-.block3{
+.block3 .container{
   
    background-color: hsl(256, 26%, 20%);
     color: white;
-    margin-top: 60px;
-    margin-bottom: 150px;
+    
     width: 80%;
-    height: 200px;
     margin-left: 8%;
     padding-left: 6%;
     padding-top: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
     position: relative;
    
 }
 
-.block3 button{
+.block3 .container button{
     
   background-color: transparent;
     border: 1px solid white;
@@ -241,8 +248,7 @@ font-family: DM Serif Display;
     background-position: left top;
     background-color: hsl(0, 0%, 98%);
     padding-left: 8%;
-    height: 400px;
-    box-sizing: content-box;
+  
     
 }
 .footer .head-foot{
@@ -288,6 +294,7 @@ font-family: DM Serif Display;
    
     cursor: pointer;
 }
+
 @media (max-width:954px){
     
 
@@ -330,9 +337,7 @@ hr:first-line{
 .block1 .content{
    width: 100%;
 }
-.block2 {
-  height: 950px;
-}
+
 .block2 .content2{
   width: 100%;
   text-align: center;
@@ -341,22 +346,30 @@ hr:first-line{
 .block2 h1{
     text-align: center;
 }
-.block3 button{
+.block3 .container button{
     float: none;
    
 }
 .block3 {
-   text-align: center;
-   height: 350px;
-    box-sizing: border-box;
+    margin-top: 7%;
+   
 }
-.block3:before{
+.block3 .container {
+   text-align: center;
+    line-height: 3em;
+    padding-bottom: 10%;
+}
+.block3 h1 {
+    font-size: 35px;
+}
+.block3 .container:before{
   
   background-image: url(images/bg-pattern-how-we-work-mobile.svg);
 }
 .footer {
     text-align: center;
-    height: 1000px;
+   
+    
 }
 
 .footer .head-foot .social{
@@ -414,5 +427,22 @@ hr:first-line{
     display: none;
     
 }
+.block1 h1{
+  font-size: 30px;
 
 }
+.block1 .content{
+  font-size: 12px;
+
+}
+.block2 h1{
+  font-size: 30px;
+
+}
+}
+@media(max-width:700px){
+.block1:before{
+   
+    background-image: none;
+    
+}}
