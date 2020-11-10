@@ -326,7 +326,7 @@ hr:first-line{
 }
 .block1:before{
    
-    background-image: url(images/bg-pattern-intro-left-mobile.svg);
+    background-image: none;
     bottom: 0px;
     top: 19px;
 }
